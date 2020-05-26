@@ -29,7 +29,7 @@ def input_to_index(user_input)
 end
 
 def move(location, index = "X")
-  @board[location.to_i - 1] = index
+  @board[location] = index
 end
 
 def position_taken?(board, index)
