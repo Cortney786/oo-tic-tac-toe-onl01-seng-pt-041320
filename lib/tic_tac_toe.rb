@@ -12,7 +12,9 @@ class TicTacToe
   [6, 4, 2]
 ]
 
-
+def initialize (board = nil)
+    @board = Array.new(9, " ")
+  end  
   
     def display_board
       puts "#{boards[0]} | #{boards[1]} | #{boards[2]}" 
