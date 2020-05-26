@@ -17,8 +17,6 @@ end
     [6, 4, 2]  
   ] 
   
-
-  
     def display_board
       puts "#{boards[0]} | #{boards[1]} | #{boards[2]}" 
       puts "-----------"
