@@ -34,5 +34,6 @@ def input_to_index(input)
   
   def move(index, player = "X")
     @board[index] = player
-  end 
+   end  
+  end
  
