@@ -60,7 +60,7 @@ def current_player
   return player
 end
 
-def turn(board)
+def turn
   puts "Please choose a number 1-9:"
   user_input = gets.chomp
   index = input_to_index(user_input)
@@ -69,7 +69,7 @@ def turn(board)
     move(board, index, player_token)
     display_board(board)
   else
-    turn(board)
+    turn
   end
 end
 
