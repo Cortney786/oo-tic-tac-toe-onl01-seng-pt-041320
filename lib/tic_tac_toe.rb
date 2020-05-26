@@ -28,7 +28,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(location, index, current_player)
+def move(location, index = current_player)
   @board[location.to_i - 1] = current_player
 end
 
