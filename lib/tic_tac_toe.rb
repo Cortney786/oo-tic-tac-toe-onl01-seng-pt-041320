@@ -28,7 +28,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(location, inded = X)
+def move(location, inded = "X")
   @board[location.to_i - 1] = index
 end
 
